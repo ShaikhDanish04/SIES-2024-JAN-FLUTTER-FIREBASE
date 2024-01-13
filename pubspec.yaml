@@ -36,6 +36,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core: ^2.24.2
   cloud_firestore: ^4.14.0
+  connectivity: ^3.0.6
+  fluttertoast: ^8.2.4
+  matcher: ^0.12.16
+  test: ^1.24.9
 
 dev_dependencies:
   flutter_test:

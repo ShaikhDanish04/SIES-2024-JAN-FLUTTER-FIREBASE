@@ -9,7 +9,6 @@ void main() async {
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   FirebaseFirestore.instance.settings = Settings(
     persistenceEnabled: true, // Enable offline persistence
-    cacheSizeBytes: Settings.CACHE_SIZE_UNLIMITED,
   );
   runApp(MyApp());
 }
